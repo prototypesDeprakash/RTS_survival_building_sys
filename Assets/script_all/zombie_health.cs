@@ -8,10 +8,10 @@ using UnityEngine.UI;
 
 public class zombie_health : MonoBehaviour
 {
-    public int currentHealth = 100;  // Starting health of the zombie
+    public int currentHealth = 500;  // Starting health of the zombie
     public Animator animator;
     public Slider healthbar;
-    private int maxHealth = 1000;  // Max health value
+    private int maxHealth = 500;  // Max health value
 
     private void Start()
     {
